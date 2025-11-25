@@ -89,3 +89,35 @@ git clone [https://github.com/B-GUST/leader-dashboard.git](https://github.com/B-
 cd leader-dashboard
 pip install -r requirements.txt
 streamlit run app.py
+
+
+---
+
+## Frontend: Strategic Operations Dashboard (React + Vite + Tailwind)
+
+He añadido un scaffold minimal de frontend con una vista de `Strategic Operations Dashboard` (COO). Está en `src/` y puedes levantarlo localmente.
+
+Pasos para correr la UI localmente (PowerShell):
+
+```pwsh
+# Instalar dependencias
+npm install
+
+# Ejecutar modo desarrollo
+npm run dev
+```
+
+Dependencias clave incluidas en `package.json`:
+- `react`, `react-dom`, `vite`, `tailwindcss`, `lucide-react`
+
+Instalación opcional: "shadcn MCP"
+- Si quieres integrar la librería de componentes de shadcn (UI primitives), sigue las instrucciones oficiales: https://ui.shadcn.com/
+- Ejemplo (instalar la herramienta CLI y añadir componentes):
+
+```pwsh
+npx shadcn-ui@latest add
+```
+
+Nota: No puedo ejecutar instalaciones desde aquí; los comandos anteriores son instrucciones para ejecutar en tu máquina.
+
+Si quieres, puedo ejecutar `npm install` y arrancar el servidor de desarrollo aquí (necesito permiso para ejecutar comandos). También puedo añadir soporte para Recharts o integrar componentes shadcn directamente.
