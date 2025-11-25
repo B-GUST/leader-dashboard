@@ -5,7 +5,35 @@
 Un dashboard interactivo que aplica Machine Learning para ayudar a los líderes a detectar patrones de "teatro de la productividad" y riesgo de burnout en sus equipos, basándose en la investigación de mi proyecto de grado sobre Ingeniería Organizacional.
 
 ---
+# Leader Dashboard: Strategic Operations Center 🚀
 
+> "Transformando datos dispersos en decisiones ejecutivas."
+
+## 📋 Project Overview
+Este proyecto es una prueba de concepto (PoC) de un **Dashboard de Operaciones Unificado**. Diseñado desde la perspectiva de un COO/Program Manager, su objetivo es centralizar métricas críticas de múltiples flujos de trabajo (Desarrollo, Ventas, RRHH) en una sola vista accionable.
+
+No es solo un administrador de tareas; es una herramienta de **Gobernanza de Proyectos**.
+
+## 🎯 Key Features (Roadmap)
+- **Vista de Pájaro (Bird's Eye View):** Estado de salud de los proyectos (RAG Status - Red/Amber/Green) en tiempo real.
+- **Matriz de Riesgos:** Visualización de bloqueos y riesgos potenciales antes de que se conviertan en problemas.
+- **Team Pulse:** Métricas de carga de trabajo y sentimiento del equipo (simulado).
+- **Financial Snapshot:** Burn-rate y presupuesto vs. ejecución.
+
+## 🛠 Tech Stack (Arquitectura)
+Este proyecto demuestra la capacidad de construir interfaces de alto rendimiento para la toma de decisiones:
+- **Frontend:** React + Vite (Velocidad y modularidad).
+- **Styling:** Tailwind CSS + ShadcnUI (Diseño profesional y accesible tipo Enterprise).
+- **State Management:** Zustand / Context API.
+- **Data Visualization:** Recharts (Gráficos ejecutivos).
+- **Deployment:** Vercel / Netlify.
+
+## 💡 Why this stack?
+Elegí esta arquitectura porque prioriza la velocidad de desarrollo, la escalabilidad y una experiencia de usuario (UX) limpia, vital para herramientas utilizadas por C-Levels.
+
+---
+*Developed by [Benito August](https://www.linkedin.com/in/benitoaugust/) - Strategic Tech Leader.*
+---
 ## 🎯 Contexto del Problema
 
  En los entornos de trabajo híbridos, los líderes han perdido la "Gestión por Paseo", creando un **"punto ciego"**. Esta falta de visibilidad fomenta comportamientos disfuncionales:
