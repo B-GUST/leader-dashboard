@@ -2,19 +2,19 @@
 
 [![Estado del Proyecto: En Desarrollo](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow.svg)](https://github.com/B-GUST/leader-dashboard)
 
-[cite_start]Un dashboard interactivo que aplica Machine Learning para ayudar a los líderes a detectar patrones de "teatro de la productividad" y riesgo de burnout en sus equipos, basándose en la investigación de mi proyecto de grado sobre Ingeniería Organizacional[cite: 330].
+Un dashboard interactivo que aplica Machine Learning para ayudar a los líderes a detectar patrones de "teatro de la productividad" y riesgo de burnout en sus equipos, basándose en la investigación de mi proyecto de grado sobre Ingeniería Organizacional.
 
 ---
 
 ## 🎯 Contexto del Problema
 
-[cite_start] En los entornos de trabajo híbridos, los líderes han perdido la "Gestión por Paseo" [cite: 346][cite_start], creando un **"punto ciego"**[cite: 347]. Esta falta de visibilidad fomenta comportamientos disfuncionales:
+ En los entornos de trabajo híbridos, los líderes han perdido la "Gestión por Paseo", creando un **"punto ciego"**. Esta falta de visibilidad fomenta comportamientos disfuncionales:
 
-1.  [cite_start] **El "Teatro de la Productividad":** Un fenómeno donde los empleados priorizan *parecer* ocupados por encima de *ser* efectivos[cite: 349, 357]. [cite_start]Mi investigación de caso encontró que un 76.9% de los participantes sentía esta presión[cite: 358].
-2.  [cite_start] **La Erosión de la Seguridad Psicológica:** Sin confianza, el equipo no comunica honestamente los fallos, creando un ciclo vicioso que perpetúa el caos operativo[cite: 369, 370].
-3.  [cite_start] **El "Ejecutor Ansioso":** El resultado es un profesional que sostiene la productividad a un costo personal insostenible, validando el burnout como un fallo sistémico del diseño organizacional, no individual[cite: 364, 375].
+1. **El "Teatro de la Productividad":** Un fenómeno donde los empleados priorizan *parecer* ocupados por encima de *ser* efectivos. Mi investigación de caso encontró que un 76.9% de los participantes sentía esta presión.
+2. **La Erosión de la Seguridad Psicológica:** Sin confianza, el equipo no comunica honestamente los fallos, creando un ciclo vicioso que perpetúa el caos operativo.
+3. **El "Ejecutor Ansioso":** El resultado es un profesional que sostiene la productividad a un costo personal insostenible, validando el burnout como un fallo sistémico del diseño organizacional, no individual.
 
-[cite_start] Los líderes operan "a ciegas", basándose en métricas de vanidad (actividad) en lugar de métricas de valor (resultado)[cite: 351, 353].
+ Los líderes operan "a ciegas", basándose en métricas de vanidad (actividad) en lugar de métricas de valor (resultado).
 
 ## 💡 La Solución
 
@@ -28,8 +28,8 @@ El núcleo del proyecto es un **modelo de clasificación (regresión logística 
 
 * **Dashboard Interactivo:** Visualizaciones claras sobre la salud del equipo, carga de trabajo y cuellos de botella.
 * **Modelo Predictivo:** Un *score* de riesgo de burnout y "teatro de la productividad" por equipo o proyecto.
-* [cite_start] **Análisis de "Trabajo Superficial":** Identificación de la proporción de tareas de bajo valor vs. trabajo profundo (Deep Work)[cite: 359].
-* [cite_start] **Simulación de Datos:** (Inicial) Un script de Python para generar un dataset realista que simula los patrones encontrados en la investigación[cite: 356].
+* **Análisis de "Trabajo Superficial":** Identificación de la proporción de tareas de bajo valor vs. trabajo profundo (Deep Work).
+* **Simulación de Datos:** (Inicial) Un script de Python para generar un dataset realista que simula los patrones encontrados en la investigación.
 
 ## 🛠️ Stack Tecnológico
 
